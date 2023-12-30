@@ -1,0 +1,49 @@
+* {
+    font-family: Cambria, system-ui;
+    font-weight: 550;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: Helvetica, Cambria, system-ui;
+    font-size: 28px;
+    text-align: center;
+}
+
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+#home-index li {
+    display: table;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+}
+
+.container h2, .container p {
+    text-align: center;
+}
+
+.container h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container .ingredients {
+    display: inline-table;
+}
+
+.container .steps {
+    display: inline-table;
+    float: right;
+}
