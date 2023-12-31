@@ -8,6 +8,8 @@ h1 {
     font-family: Helvetica, Cambria, system-ui;
     font-size: 28px;
     text-align: center;
+    margin-top: 80px;
+    margin-right: 120px;
 }
 
 a, a:visited, a:hover, a:active {
@@ -15,35 +17,74 @@ a, a:visited, a:hover, a:active {
     text-decoration: none;
 }
 
-#home-index li {
+#home-index ul {
     display: table;
     margin: 0 auto;
-    text-align: center;
+    margin-right: 600px;
+    margin-top: 70px;
+    padding: 8px;
+
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.introduction img {
+    display: table;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
     border-radius: 50%;
     height: 200px;
     width: 200px;
+    float: left;
 }
 
-.container h2, .container p {
-    text-align: center;
+.description {
+    display: table;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 120px;
 }
 
-.container h2 {
+.description h2 {
+    padding-top: 50px;
+}
+
+.description p {
+    padding-left: 20px;
+    width: 600px;
+    text-align: justify;
+}
+
+h2 {
     font-size: 20px;
     font-weight: 600;
 }
 
 .container .ingredients {
     display: inline-table;
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 30px;
+    padding: 10px;
 }
 
 .container .steps {
     display: inline-table;
     float: right;
+    margin-right: 200px;
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 600px;
+}
+
+.bottom {
+    display: table;
+    margin-top: 500px;
+    margin-left: 550px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.bottom a {
+    font-weight: 600;
 }
